@@ -9,4 +9,28 @@ Hence, we use a dyssimetric loss measure:
 
 $ LinEx(y, \hat {y}) = exp(\alpha (y - \hat {y}) - \alpha (y - \hat {y}) - 1$
 
-with $y$ the true value and $\hat{y}$ the predicted value. Specifically, an value of 0.1 for the alpha hyperparameter is used in the computation of the final loss value.
+with y the true value and $\hat{y}$ the predicted value. Specifically, an value of 0.1 for the alpha hyperparameter is used in the computation of the final loss value.
+
+## Method
+
+#### Preprocessing
+missing values
+group by for possible duplicates
+keep only relevant variables
+
+#### Feature Engineering
+See report
+
+#### Feature selection
+PCA, k-PCA, Lasso
+
+#### Cross-Validation
+Specific to Time Series (beware to temporal aspects, usual K-Fold CV does not apply)
+
+#### Algorithms
+ARMA (Time Series)
+Self-Training
+Lasso
+
+#### Results
+LinEx = 0.82
