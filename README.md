@@ -7,8 +7,6 @@ Axa has $28$ call centers, all having different behavior in time. Predicting in 
 
 Hence, we use a dyssimetric loss measure: 
 
-$
-LinEx(y, \hat {y}) = exp(\alpha (y - \hat {y}) - \alpha (y - \hat {y}) - 1
-$
+$ LinEx(y, \hat {y}) = exp(\alpha (y - \hat {y}) - \alpha (y - \hat {y}) - 1$
 
 with $y$ the true value and $\hat{y}$ the predicted value. Specifically, an value of $0.1$ for the $\alpha$ hyperparameter is used in the computation of the final loss value.
